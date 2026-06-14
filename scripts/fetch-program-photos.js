@@ -1,22 +1,3 @@
-// fetch-photos.js
-const cloudinary = require('cloudinary').v2;
-const fs = require('fs'); // Si vous utilisez d'autres modules
-
-// 1. INITIALISATION
-cloudinary.config({ 
-  cloud_name: 'ddnqhlybk', 
-  api_key: '131153642483419', 
-  api_secret: 'ZR9w71F0PnrKwBggLP-7L109jo0',
-  secure: true
-});
-
-// 2. VOTRE LOGIQUE / FONCTIONS
-async function getMyPhotos() {
-    // Votre code pour récupérer ou lister les images...
-}
-
-getMyPhotos();
-
 
 import { writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
