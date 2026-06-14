@@ -1,7 +1,8 @@
 import { Cloudinary } from '@cloudinary/url-gen';
 
+// Initialisation de l'instance Cloudinary avec votre Cloud Name
 export const cld = new Cloudinary({
   cloud: {
-    cloudName: import.meta.env.VITE_CLOUDINARY_CLOUD_NAME || 'daf8xxytg',
-  },
+    cloudName: 'ddnqhlybk' // Votre vrai Cloud Name
+  }
 });
